@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row spacer">
+        <h1>Iowa Caucus Official App</h1>
+    </div>
+    <div class="row button-container">
+
+        <button onClick="addSanders()" id="sanders">Sanders</button>
+        <button onClick="addWarren()" id="warren">Warren</button>
+        <button onClick="addBiden()" id="biden">Biden</button>
+        <button onClick="addButtegieg()" id="buttegieg">Buttegieg</button>
+        <button onClick="addUncommited()" id="uncommited">Uncommited</button>
+    </div>
+    <div class="spacer"></div>
+    <div class="row totals">
+        <h2 class="total" id="sandersT">Sanders:</h2>
+        <h2 class="total" id="warrenT">Warren:</h2>
+        <h2 class="total" id="bidenT">Biden:</h2>
+        <h2 class="total" id="buttegiegT">Buttegieg:</h2>
+        <h2 class="total" id="uncommitedT">Uncommited:</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
